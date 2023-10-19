@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-box{
+    height: 100vh;
+    width: 100%;
+ 
+    flex-direction: column;
+}
+
+.top{
+  
+    width: 100vw;
+    height: 100px;
+    margin-top: 40px;
+    padding: 5px;
+    display: flex;
+}
+.text{
+   width: 60%;
+    height: 90px;
+   margin-left: 20px;
+   padding-top: 10px;
+}
+
+h1{
+    font-size: 40px;  
+    letter-spacing: 1px;
+}
+
+p{
+    font-size: 23px;
+    margin-top: 5px;
+    color: gray;
+    letter-spacing: 1px;
+}
+
+.logo{
+    margin-right: 8px;
+    width: 140px;
+    height: 100px;
+ 
+} 
+.logo .img{
+    background-image: url('../../assets/images/owm.logo.jpeg');
+    background-size: contain;
+    width: 130px;
+    height: 90px;
+    margin: 5px;
+  
+}
+
+.form{
+ 
+    width: 100vw;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+
+label{
+ display: flex;
+ font-size: 20px;
+ margin-top: 25px;
+ font-weight: bold;
+ letter-spacing: 1px;
+}
+
+input{
+    margin:6px 0px;
+    height: 35px;
+   background-color: rgb(209, 209, 209);
+   border: none;
+   text-align: start;
+   width: 80vw;
+   font-size: 20px;
+}
+
+input::placeholder{
+    font-size: 20px;
+    padding-left: 10px;
+    letter-spacing: 2px;
+}
+
+.forgot{
+    flex-direction: row-reverse;
+    text-align: end;
+    margin-top: 30px;
+    margin-right: 10px;
+    font-size: 17px;
+ 
+}
+
+a{
+text-decoration: none;
+color: rgb(78, 158, 192);
+letter-spacing: 1px;
+}
+
+button{
+    margin-top: 45px;
+    width: 100%;
+    height: 40px;
+    background-color: #045e83;
+    color: white;
+    font-size: 18px;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.icon{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    background-color:rgb(209, 209, 209); 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i{
+    font-size: 18px;
+    margin:0px 15px;
+}
+
+
+h4{
+    margin-top: 40px;
+    color: gray;
+    letter-spacing: 1px;
+}

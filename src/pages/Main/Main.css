@@ -1,0 +1,214 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.head{
+    width: auto;
+    margin: 5px 20px 5px 20px;
+    height: 80px;
+    background-color: rgba(239, 247, 255, 0.87);
+    display: flex;
+}
+.profile{
+    height: 70px;
+    width: 73px;
+    border-radius: 50%;
+    border: 1px solid rgba(133, 132, 132, 0.678);
+    overflow: hidden;
+    margin:5px 10px;
+  
+}
+
+.profile-img {
+    background-image: url('../../assets/images/profile.png');
+    height: 100%;
+    width: 100%;  
+    background-size: cover;
+  
+}
+.user{
+    width: 45vw;
+    height: 75px;
+
+    align-items: center;
+    margin: 0px;
+}
+.user h4{
+    padding:15px 5px 2px 5px;
+    margin: 0px;
+    color: rgb(31, 30, 30);
+    font-size: 15px;
+}
+.user p{
+    padding:2px 5px;
+    color: gray;
+    font-size: 13px;
+    margin: 0px;
+}
+
+.logo{
+    height: 75px;
+    width: 90px;
+    margin: 0px 8px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.logo-img{
+background-image: url('../../assets/images/owm.logo.jpeg');
+background-size: cover;
+ height: 80% ;
+ width: 85%;
+
+}
+
+
+/*Main-Form*/
+
+.form{
+    width: auto;
+    margin: 5px 20px;
+    height: 100%;
+    background-color: #fff;  
+    cursor: pointer;
+}
+
+.form1{
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  background-color: rgba(204, 238, 253, 0.671);
+  
+}
+
+.top{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+   align-self: center;
+   margin: 0px;
+}
+
+.top-p1{
+    font-size: 1.3rem;
+    margin-left: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #045e83;
+    letter-spacing: 1px;
+}
+.top i{
+    margin-left: 20px;
+    font-size: 2.1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #045e83;
+}
+
+
+
+.order{
+    width: 100%;
+    height: auto;
+    color: #045e83;
+   
+}
+
+ul{
+    list-style: none ;
+    padding: 5px 18px 18px 15px;
+}
+ul li{
+    font-size: 1.1rem;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    display: flex;
+}
+
+ul li i{
+    width: 25px;
+    font-size: 1.2rem;
+    padding: 3px;
+}
+.order-p{
+    width: 100%;
+    margin: 0px;
+    padding-left:10px ;
+    font-size: 1.1rem;
+}
+
+
+.form2{
+    width: 100%;
+    height: auto;
+    background-color: rgba(225, 225, 250, 0.699);
+    margin-top: 10px;
+}
+
+
+.top-p2{
+    font-size: 1.3rem;
+    margin-left: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: orange;
+}
+
+.form2-top i{
+    color: orange;
+}
+
+.form2-order li{
+    color: rgb(90, 90, 90);
+}
+
+.form3{
+    width: 100%;
+    height: auto;
+    background-color: rgba(243, 230, 187, 0.836);
+    margin: 10px 0px;
+}
+
+.top-p3{
+    font-size: 1.3rem;
+    margin-left: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+   
+    color: black;
+}
+
+.form3-top i{
+    color: black;
+}
+
+button{
+    width: 100%;
+    height: 5vh;
+    background-color: #045e83;
+    margin-top: 10px;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
